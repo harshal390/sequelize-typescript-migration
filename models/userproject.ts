@@ -2,7 +2,7 @@
 import { Model } from "sequelize";
 
 interface USERPROJECT {
-  userProjectId: number;
+  id: number;
   projectId: number;
   userId: number;
 }
@@ -14,7 +14,7 @@ module.exports = (sequelize: any, DataTypes: any) => {
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
-    userProjectId!: number;
+    id!: number;
     projectId!: number;
     userId!: number;
     static associate(models: any) {
@@ -23,7 +23,7 @@ module.exports = (sequelize: any, DataTypes: any) => {
   }
   UserProject.init(
     {
-      userProjectId: {
+      id: {
         primaryKey: true,
         type: DataTypes.INTEGER,
         allowNull: false,

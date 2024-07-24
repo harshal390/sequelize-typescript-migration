@@ -1,51 +1,51 @@
 export const userProjects = [
   {
-    userProjectId:1,
+    id:1,
     projectId: 1,
     userId: 1,
   },
   {
-    userProjectId:2,
+    id:2,
     projectId: 1,
     userId: 2,
   },
   {
-    userProjectId:3,
+    id:3,
     projectId: 1,
     userId: 3,
   },
   {
-    userProjectId:4,
+    id:4,
     projectId: 2,
     userId: 4,
   },
   {
-    userProjectId:5,
+    id:5,
     projectId: 2,
     userId: 1,
   },
   {
-    userProjectId:6,
+    id:6,
     projectId: 3,
     userId: 2,
   },
   {
-    userProjectId:7,
+    id:7,
     projectId: 3,
     userId: 2,
   },
   {
-    userProjectId:8,
+    id:8,
     projectId: 4,
     userId: 4,
   },
   {
-    userProjectId:9,
+    id:9,
     projectId: 5,
     userId: 1,
   },
   {
-    userProjectId:10,
+    id:10,
     projectId: 5,
     userId: 2,
   },
